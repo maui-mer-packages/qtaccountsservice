@@ -8,12 +8,9 @@ License:        LGPLv2 with exceptions or GPLv3 with exceptions
 
 URL:            https://github.com/mauios/qtaccountsservice
 Source0:        %{name}-%{version}.tar.xz
-BuildRequires:  pkgconfig(Qt5Core)
-BuildRequires:  pkgconfig(Qt5Gui)
-BuildRequires:  pkgconfig(Qt5DBus)
-BuildRequires:  pkgconfig(Qt5Network)
-BuildRequires:  pkgconfig(Qt5Qml)
-BuildRequires:  pkgconfig(Qt5Quick)
+BuildRequires:  qt5-qtcore-devel
+BuildRequires:  qt5-qtgui-devel
+BuildRequires:  qt5-qtquick-devel
 BuildRequires:  cmake
 Requires(post): /sbin/ldconfig
 Requires(postun): /sbin/ldconfig
