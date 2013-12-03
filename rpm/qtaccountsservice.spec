@@ -10,7 +10,8 @@ URL:            https://github.com/mauios/qtaccountsservice
 Source0:        %{name}-%{version}.tar.xz
 BuildRequires:  qt5-qtcore-devel
 BuildRequires:  qt5-qtgui-devel
-BuildRequires:  qt5-qtquick-devel
+BuildRequires:  qt5-qtdeclarative-devel-tools
+BuildRequires:  qt5-qtdeclarative-qtquick-devel
 BuildRequires:  cmake
 Requires(post): /sbin/ldconfig
 Requires(postun): /sbin/ldconfig
