@@ -8,7 +8,12 @@ License:        LGPLv2 with exceptions or GPLv3 with exceptions
 
 URL:            https://github.com/mauios/qtaccountsservice
 Source0:        %{name}-%{version}.tar.xz
+Requires:       qt5-qtcore
+Requires:       qt5-qtdbus
+Requires:       qt5-qtgui
+Requires:       qt5-qtdeclarative
 BuildRequires:  qt5-qtcore-devel
+BuildRequires:  qt5-qtdbus-devel
 BuildRequires:  qt5-qtgui-devel
 BuildRequires:  qt5-qtdeclarative-devel-tools
 BuildRequires:  qt5-qtdeclarative-qtquick-devel
