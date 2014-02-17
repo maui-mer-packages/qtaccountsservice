@@ -61,7 +61,7 @@ rm -f %{buildroot}/%{_libdir}/*.la
 %files
 %defattr(-,root,root,-)
 %{_libdir}/libqtaccountsservice-qt5.so.*
-${_libdir}/hawaii
+%{_libdir}/hawaii
 %doc LICENSE
 %doc README.md
 
